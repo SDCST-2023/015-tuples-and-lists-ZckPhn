@@ -24,4 +24,8 @@ The animal at that index is Dog
 
 
 
-animals =
+myList = ["Cat","Fish","Dog","Bear","Turtle"]
+myList.sort()
+index = int(input("Enter the index for an animal: "))
+animal = myList[index]
+print(f"The animal at that index is {animal}")
